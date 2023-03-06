@@ -26,14 +26,22 @@ header{
     display: flex;
     justify-content: space-between;
     padding: 0px 30px 20px 35% ;
+    object-fit: cover;
 }
 .logo_Inicial img{
     padding: 10px;
- 
+    
+}
+.img_logo{
+    object-fit: cover;
+    width: 45%;
+    height: auto;
 }
 .logo_Inicial .buscador img{
 height: 25px;
 padding: 20px 10px 10px 0px;
+object-fit: cover;
+
 }
 .menu_busqueda{
   
@@ -58,10 +66,12 @@ padding: 20px 10px 10px 0px;
 }
 
 .productos_principal{
+    display: flex;
+    object-fit: cover;
     position: relative;
     display: inline-block;
     text-align: center;
-background: var(--fondo);
+background-color: red;
 padding: 10px 30px 20px 30px;
 }
 
