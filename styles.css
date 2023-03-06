@@ -1,0 +1,234 @@
+:root{
+    --text: #ffff;
+    --title: #545253;
+    --fondo: #F6EAE0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #ffff;
+
+}
+
+header{
+    text-align: center;
+    color: var(--title);
+    font-size: 1.13rem;
+    background-color: #767676;
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+
+   
+}
+
+.logo_Inicial{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 20px 35% ;
+}
+.logo_Inicial img{
+    padding: 10px;
+ 
+}
+.logo_Inicial .buscador img{
+height: 25px;
+padding: 20px 10px 10px 0px;
+}
+.menu_busqueda{
+  
+    justify-content: center;
+    text-align: center;
+    padding: 10px 30px 50px 30px;
+
+}
+
+.menu_busqueda a{
+    flex-wrap: wrap;
+    font-size: 1.1em;
+    text-decoration: none;
+    justify-content: center;
+    color: var(--text);
+    padding: 00px 30px 200px 30px;
+    color: var(--title);
+}
+.menu_busqueda a:hover{
+   text-decoration-line: underline;
+   
+}
+
+.productos_principal{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+background: var(--fondo);
+padding: 10px 30px 20px 30px;
+}
+
+.productos_principal button{
+    position: absolute;
+    text-align: center;
+    padding: 10px 5px 13px 9px;
+    border-radius: 20%;
+}
+
+.productos_principal img{
+    height: 10%;
+    width: 45%;
+    justify-content: space-around;
+    border-top: 10%;
+    padding: 20px 20px 5px 30px;
+    
+}
+
+.categorias h3{
+    text-align: center;
+    font-size: 2em;
+   
+
+}
+
+.categorias img{
+    flex-wrap: wrap;
+    border-width: 100px;
+    padding: 20px 10px 5px 60px;
+    height: 320px;
+    width: 340px;
+    border-radius: 6px;
+    opacity: 1;
+    
+
+}
+
+.video{
+ display: flex;
+ justify-content: center;
+ padding: 100px 0px 100px 0px;
+}
+video{
+    justify-content: center;
+    width: 50%;
+}
+.instagram{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    padding: 0px 100px 100px 60px;
+}
+
+.img_1{
+    white-space: 20%;
+    width:30%;
+ padding: 0px 10px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img_1 figure{
+    position: relative;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+    cursor: pointer;
+}
+.img_1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.img_1 figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(246, 234, 224,0.6) ;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.img_1 figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+
+}
+.img_1 figure:hover > .capa h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+
+}
+.img_1 figure .capa h3{
+   color: #fff;
+   font-weight: 400;
+   margin-bottom: 120px;
+   transition: all 500ms ease-out;
+   margin-top: 30px;
+}
+
+.img_1 figure:hover .capa p{
+    color: #ffff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 120px;
+    margin: auto;
+}
+.final{
+    background-color: #B9B9B9;
+    color: var(--text);
+    border: 0px;
+    padding: 20px 100px 0px 100px;
+    margin: 0px;
+}
+footer{
+  display: flex;
+    background-color: #B9B9B9;
+    color: var(--text);
+  padding-top: 5%;
+    
+}
+.final a{
+ text-decoration: none; 
+ color: var(--text);
+ flex-direction: row;
+ padding: 10px 0px 10px 10px;
+
+}
+.final a:hover{
+    color:red;
+}
+.mas_info{
+    display: initial ;
+    color: var(--text);
+    padding: 20px 100px 100px 0px ;
+}
+.final a{
+    padding: 10px 10px 10px 0px;
+    
+}
+input{
+    
+    padding: 10px 70px 10px 70px;
+    border-color: #EFFFFE;
+    border-radius: 5em 0em 0em 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+    font-size: 0.9em;
+ 
+}
+
+footer button{
+    padding: 9px 20px 11px 20px;
+    border-color: #A4855A;
+    border-radius: 0em 5em 5em 0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 0.9em;
+    background: #A4855A;
+}
+
+.icons{
+    padding: 50px 0px 01px 0px;
+}
+
+
