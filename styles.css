@@ -418,7 +418,7 @@ background-color: var(--fondo);
     border: 0px;
     padding: 100px;
     margin: 0px;
-   
+    flex-direction: column;
 }
 footer{
   display: flex;
